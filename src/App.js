@@ -100,7 +100,6 @@ function App() {
                   <ListItemButton>
                     <Avatar sx={{mr: 2}}>{(member[0]+member[1]).toUpperCase()}</Avatar>
                     <ListItemContent>{member}</ListItemContent>
-                    <KeyboardArrowDown />
                   </ListItemButton>
                 </ListItem>
               ))}
